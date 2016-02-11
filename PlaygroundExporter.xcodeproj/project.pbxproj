@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29330DDE1C6C971E00DA4BC8 /* PlaygroundExporter.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 29330DDD1C6C971E00DA4BC8 /* PlaygroundExporter.xcscheme */; };
+		29330DE01C6C971E00DA4BC8 /* PlaygroundExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29330DDF1C6C971E00DA4BC8 /* PlaygroundExporter.swift */; };
+		29330DE21C6C971E00DA4BC8 /* NSObject_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29330DE11C6C971E00DA4BC8 /* NSObject_Extension.swift */; };
+		29A13A821C6CC4BE007256BD /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A13A811C6CC4BE007256BD /* IDEKit.framework */; };
+		29A13A841C6CC4C0007256BD /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A13A831C6CC4C0007256BD /* IDEFoundation.framework */; };
+		29A13A861C6CC4D4007256BD /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A13A851C6CC4D4007256BD /* DVTKit.framework */; };
+		29A13A881C6CC4D6007256BD /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A13A871C6CC4D6007256BD /* DVTFoundation.framework */; };
+		29A13A8A1C6CC4F1007256BD /* IDESourceEditor in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A13A891C6CC4F1007256BD /* IDESourceEditor */; };
+		29EF4DE41C6CCE4F006E7C4C /* Markingbird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF4DE31C6CCE4F006E7C4C /* Markingbird.swift */; };
+		29F353CB1C6CC85600A02676 /* MarkdownExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B683111C6CA1B400E590A5 /* MarkdownExporter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29330DD91C6C971E00DA4BC8 /* PlaygroundExporter.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundExporter.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		29330DDD1C6C971E00DA4BC8 /* PlaygroundExporter.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PlaygroundExporter.xcscheme; path = PlaygroundExporter.xcodeproj/xcshareddata/xcschemes/PlaygroundExporter.xcscheme; sourceTree = SOURCE_ROOT; };
+		29330DDF1C6C971E00DA4BC8 /* PlaygroundExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundExporter.swift; sourceTree = "<group>"; };
+		29330DE11C6C971E00DA4BC8 /* NSObject_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject_Extension.swift; sourceTree = "<group>"; };
+		29330DE31C6C971E00DA4BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29A13A811C6CC4BE007256BD /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../../../Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
+		29A13A831C6CC4C0007256BD /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../../../../../Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework; sourceTree = "<group>"; };
+		29A13A851C6CC4D4007256BD /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
+		29A13A871C6CC4D6007256BD /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<group>"; };
+		29A13A891C6CC4F1007256BD /* IDESourceEditor */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = IDESourceEditor; path = ../../../../../Applications/Xcode.app/Contents/PlugIns/IDESourceEditor.ideplugin/Contents/MacOS/IDESourceEditor; sourceTree = "<group>"; };
+		29B683111C6CA1B400E590A5 /* MarkdownExporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownExporter.swift; sourceTree = "<group>"; };
+		29B683151C6CA4DF00E590A5 /* IDEHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEHeader.h; sourceTree = "<group>"; };
+		29B683161C6CA4EC00E590A5 /* PlaygroundExporter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlaygroundExporter-Bridging-Header.h"; sourceTree = "<group>"; };
+		29EF4DE31C6CCE4F006E7C4C /* Markingbird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Markingbird.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B683201C6CBBB000E590A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A13A8A1C6CC4F1007256BD /* IDESourceEditor in Frameworks */,
+				29A13A881C6CC4D6007256BD /* DVTFoundation.framework in Frameworks */,
+				29A13A861C6CC4D4007256BD /* DVTKit.framework in Frameworks */,
+				29A13A821C6CC4BE007256BD /* IDEKit.framework in Frameworks */,
+				29A13A841C6CC4C0007256BD /* IDEFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29330DD11C6C971E00DA4BC8 = {
+			isa = PBXGroup;
+			children = (
+				29A13A891C6CC4F1007256BD /* IDESourceEditor */,
+				29A13A871C6CC4D6007256BD /* DVTFoundation.framework */,
+				29A13A851C6CC4D4007256BD /* DVTKit.framework */,
+				29A13A831C6CC4C0007256BD /* IDEFoundation.framework */,
+				29A13A811C6CC4BE007256BD /* IDEKit.framework */,
+				29330DDB1C6C971E00DA4BC8 /* PlaygroundExporter */,
+				29330DDA1C6C971E00DA4BC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29330DDA1C6C971E00DA4BC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29330DD91C6C971E00DA4BC8 /* PlaygroundExporter.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29330DDB1C6C971E00DA4BC8 /* PlaygroundExporter */ = {
+			isa = PBXGroup;
+			children = (
+				29EF4DE21C6CCE1E006E7C4C /* Resources */,
+				29B683151C6CA4DF00E590A5 /* IDEHeader.h */,
+				29330DDF1C6C971E00DA4BC8 /* PlaygroundExporter.swift */,
+				29330DE11C6C971E00DA4BC8 /* NSObject_Extension.swift */,
+				29330DE31C6C971E00DA4BC8 /* Info.plist */,
+				29330DDC1C6C971E00DA4BC8 /* Supporting Files */,
+				29B683111C6CA1B400E590A5 /* MarkdownExporter.swift */,
+				29B683161C6CA4EC00E590A5 /* PlaygroundExporter-Bridging-Header.h */,
+			);
+			path = PlaygroundExporter;
+			sourceTree = "<group>";
+		};
+		29330DDC1C6C971E00DA4BC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29330DDD1C6C971E00DA4BC8 /* PlaygroundExporter.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29EF4DE21C6CCE1E006E7C4C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29EF4DE31C6CCE4F006E7C4C /* Markingbird.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29330DD81C6C971E00DA4BC8 /* PlaygroundExporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29330DE61C6C971E00DA4BC8 /* Build configuration list for PBXNativeTarget "PlaygroundExporter" */;
+			buildPhases = (
+				29330DD61C6C971E00DA4BC8 /* Sources */,
+				29330DD71C6C971E00DA4BC8 /* Resources */,
+				29B683201C6CBBB000E590A5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaygroundExporter;
+			productName = PlaygroundExporter;
+			productReference = 29330DD91C6C971E00DA4BC8 /* PlaygroundExporter.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29330DD21C6C971E00DA4BC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Uthoft;
+				TargetAttributes = {
+					29330DD81C6C971E00DA4BC8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 29330DD51C6C971E00DA4BC8 /* Build configuration list for PBXProject "PlaygroundExporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29330DD11C6C971E00DA4BC8;
+			productRefGroup = 29330DDA1C6C971E00DA4BC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29330DD81C6C971E00DA4BC8 /* PlaygroundExporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29330DD71C6C971E00DA4BC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29330DDE1C6C971E00DA4BC8 /* PlaygroundExporter.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29330DD61C6C971E00DA4BC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F353CB1C6CC85600A02676 /* MarkdownExporter.swift in Sources */,
+				29330DE01C6C971E00DA4BC8 /* PlaygroundExporter.swift in Sources */,
+				29EF4DE41C6CCE4F006E7C4C /* Markingbird.swift in Sources */,
+				29330DE21C6C971E00DA4BC8 /* NSObject_Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		29330DE41C6C971E00DA4BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		29330DE51C6C971E00DA4BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		29330DE71C6C971E00DA4BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_DIR)/../SharedFrameworks",
+					"$(DEVELOPER_DIR)/../Frameworks",
+				);
+				INFOPLIST_FILE = PlaygroundExporter/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "$(DT_TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Uthoft.PlaygroundExporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlaygroundExporter/PlaygroundExporter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		29330DE81C6C971E00DA4BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_DIR)/../SharedFrameworks",
+					"$(DEVELOPER_DIR)/../Frameworks",
+				);
+				INFOPLIST_FILE = PlaygroundExporter/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "$(DT_TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Uthoft.PlaygroundExporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlaygroundExporter/PlaygroundExporter-Bridging-Header.h";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29330DD51C6C971E00DA4BC8 /* Build configuration list for PBXProject "PlaygroundExporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29330DE41C6C971E00DA4BC8 /* Debug */,
+				29330DE51C6C971E00DA4BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29330DE61C6C971E00DA4BC8 /* Build configuration list for PBXNativeTarget "PlaygroundExporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29330DE71C6C971E00DA4BC8 /* Debug */,
+				29330DE81C6C971E00DA4BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29330DD21C6C971E00DA4BC8 /* Project object */;
+}
